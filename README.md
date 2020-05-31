@@ -1,5 +1,6 @@
 ## WEATHER KPIs USING AKKA PERSISTENCE ##
-This is a sample application to build weather kpis using _scala_, _akka-http_, _akka-persistence_. The temperature data is passed to the akka actor, which persists the events to levelDB. After persisting, it creates DAILY and WEEKLY temperature kpis for Min_Temp_Of_Week, Max_Temp_Of_Week, Min_Temp_Of_Day, Max_Temp_Of_Day.
+This is a sample application to build weather kpis using _scala_, _akka-http_, _akka-persistence_. The temperature data is passed to the akka actor, which persists the events to levelDB. After persisting, it creates DAILY and WEEKLY
+ temperature kpis for *Min Temp Of Week*, *Max Temp Of Week*, *Min Temp Of Day*, *Max Temp Of Day*.
 As and when new events are arrived, the relevant kpi will be automatically updated.
 
 These pre-calculated states can be queried using a simple REST Service, which is implemented using Akka-http.
