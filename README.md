@@ -9,7 +9,7 @@ These pre-calculated states can be queried using a simple REST Service, which is
 
 All services are POST methods, with payload json format similar to {"date":"2020-05-17"}
 
-`
+
 http://localhost:9000/weatherApp/temperature/weeklyMin
 
 http://localhost:9000/weatherApp/temperature/weeklyMax
@@ -17,7 +17,7 @@ http://localhost:9000/weatherApp/temperature/weeklyMax
 http://localhost:9000/weatherApp/temperature/dailyMax
 
 http://localhost:9000/weatherApp/temperature/dailyMin
-`
+
 
 Spray-Json libary is used for JSON Parsing.
 
