@@ -21,7 +21,7 @@ There is also a akka scheduler scheduler running at specified intervals, which r
 
 The akka-persistence snapshots will be taken at regular intervals, using another akka schduler, which is initialized on boot of the application.
 
-The tests are available for REST Service as well as Persistent actors.
+The tests are available for REST Service as well as Persistent actors. Tests using in-memory persistence, which is configured in test/application.conf
 
 
 Sample data for testing is downloaded from below url:
